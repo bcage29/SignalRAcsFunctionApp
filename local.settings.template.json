@@ -1,0 +1,14 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "CosmosDbConnectionString": "AccountEndpoint=https://[accountName].documents.azure.com:443/; AccountKey=[key];",
+        "AzureSignalRConnectionString": "Endpoint=https://[accountName].service.signalr.net;AccessKey=[key];Version=1.0;",
+        "AzureSignalRServiceTransportType": "Transient"
+    },
+    "Host": {
+        "LocalHttpPort": 7071,
+        "CORS": "http://localhost:5000"
+    }
+}
